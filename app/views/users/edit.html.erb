@@ -1,6 +1,6 @@
 <h1> --> Form : </h1>
 
-<%= form_with model: @user, url: "/users", method: :post do |form| %>
+<%= form_with model: @user do |form| %>
     <%= form.label :username, "Username:" %>
     <%= form.text_field :username %><br><br>
     <%= form.label :email, "Email:" %>
